@@ -12,7 +12,6 @@ private static Scanner masukan = new Scanner(System.in);
 		float angka2;
 		float hasil;
 		int menu;
-		int kembali;
 		
 		System.out.printf("%s\n%s\n%s\n%s\n%s\n%s\n",
 				"                 Biodata                           ",
@@ -66,7 +65,7 @@ private static Scanner masukan = new Scanner(System.in);
 			angka1 = masukan.nextFloat();
 			System.out.print("masukkan angka kedua: ");
 			angka2 = masukan.nextFloat();
-			hasil = angka1 + angka2;
+			hasil = angka1 / angka2;
 			System.out.printf("Hasil adalah %s ", hasil);
 		}
 		else if (menu==5)
